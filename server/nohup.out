@@ -1,0 +1,131 @@
+game server is listening on localhost:9003
+game server is listening on 10000
+12SELECT name,sex,headimg FROM t_users WHERE userid=15
+id: '14',
+  name: '东阳赌圣',
+  roomid: '536979',
+  sign: 'c8a15a9dab{ token: 'a5c4aec7858864b46d63b4373e2931ec',
+  errcode: 0,
+{ userid: '14',
+  name: '东阳赌圣',
+  roomid: '536979',
+  sign: 'c8a15{ token: 'ff9aebad3ff4ed26b12e571759fd12f7',
+  errcode: 0,
+  err{ userid: '14',
+  name: '东阳赌圣',
+  roomid: '536979',
+  sign: '{ token: '00b878dba50939a2b4225384b6fad275',
+  errcode: 0,
+  errmsg: { userid: '14',
+  name: '东阳赌圣',
+  roomid: '536979',
+  si{ token: 'b468de83cb3c8b314d39e9adea575376',
+  errcode: 0,
+  errmsg: 'ok' { userid: '14',
+  name: '东阳赌圣',
+  roomid: '536979',{ token: 'a754eecdc3b1e0b7e3d46fb9b5c046e9',
+  errcode: 0,
+  errmsg: 'ok' }
+UPD{ userid: '14',
+  name: '东阳赌圣',
+  roomid: '536{ token: 'f51649eb9023c7f972313cfbc0c2e4ef',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t{ userid: '14',
+  name: '东阳赌圣',
+  roomid:{ token: 'ce9d39f721f852352b3bf4c1879d4bf0',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_user{ userid: '15',
+  name: '欧阳好运',
+  ro{ token: 'eb0dae312d61c7777dc0f563c70b56d6',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET{ userid: '14',
+  name: '东阳赌圣',{ token: 'c6f94480159809895931a2b7c39ccce5',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET room{ userid: '14',
+  name: '东阳赌{ token: '68bf842b58705bc473f1a99edd3f080b',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = { userid: '14',
+  name: '东�{ token: '2144f60aa447ac01ea18aa814d619e10',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "5369{ userid: '14',
+  name: { token: 'b9dd958b7f82bfc05a9e585553f62239',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "536979" W{ userid: '14',
+  n{ token: '8aad1762e263cb473906177f5dc25909',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "536979" WHERE { userid: '14'{ token: '5fd8fa808f1b47183bbc5e50aaf97dc5',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "536979" WHERE useri{ userid:{ token: 'ac8ee3b430b1c559c9c4870ee52686ff',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "536979" WHERE userid = "{ us{ token: 'bb6637740893741d8fc62e2cfc15fd81',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "536979" WHERE userid = "14"
+{ token: 'e3edf838a87552e663cfe77eb4d4922d',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "536979" WHERE userid = "14"
+9c80f
+babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\socket_service.js:9:27)
+    at Object.<anonymous> (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\app.js:15:16)
+game server is listening on localhost:9003
+game server is listening on 10000
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::10000
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Server.listen.Server.attach (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:228:9)
+    at new Server (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:52:17)
+    at Server (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:40:41)
+    at Object.exports.start (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\socket_service.js:9:27)
+    at Object.<anonymous> (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\app.js:15:16)
+game server is listening on localhost:9003
+game server is listening on 10000
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::10000
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Server.listen.Server.attach (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:228:9)
+    at new Server (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:52:17)
+    at Server (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:40:41)
+    at Object.exports.start (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\socket_service.js:9:27)
+    at Object.<anonymous> (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\app.js:15:16)
+game server is listening on localhost:9003
+game server is listening on 10000
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::10000
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Server.listen.Server.attach (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:228:9)
+    at new Server (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:52:17)
+    at Server (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\node_modules\_socket.io@1.7.4@socket.io\lib\index.js:40:41)
+    at Object.exports.start (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\socket_service.js:9:27)
+    at Object.<anonymous> (F:\Test\cocosTest\sichuanmajiang\babykylin_mahjong_v1.0_170623\babykylin_mahjong_v1.01\babykylin_mahjong_src\server\game_server\app.js:15:16)
